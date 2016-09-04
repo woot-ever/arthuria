@@ -1,0 +1,8 @@
+global gamemode = "RPG";
+
+newWorld("");
+switchGameState(0);
+startServer();
+LoadRules("Rules/" + gamemode + "/gamemode.cfg");
+LoadMapCycle("Rules/" + gamemode + "/mapcycle.cfg");
+LoadMap("");
